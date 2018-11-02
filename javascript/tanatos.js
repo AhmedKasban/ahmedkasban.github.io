@@ -8,13 +8,13 @@ $(function(){
 
 
     // header
-    $('.header .navbar .link').click (function(){
-        $('.header .navbar ul').removeClass("menue")
-        $('.header .navbar ul').addClass("menuephone")
-      });
-  
-
-    $('.header').height($(window).height());
+   
+    var h =$(window).height();
+    var w =$(window).width()
+    if (w>800){
+        $('.header').height(h);
+    }
+   
 
     $('.header .arrow i').click (function(){
       var x=$('.featur').offset();
