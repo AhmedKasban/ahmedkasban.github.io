@@ -161,8 +161,14 @@ body {
 @media  (max-width:786px){
     .header .intro h1{
         font-size: 30px;
-
-}}
+    }
+       .navbar-light .navbar-nav .nav-item:last-of-type .nav-link{
+        border-bottom: solid 1px transparent;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 0
+    }
+}
 
 /*drop*/
 .drop{
