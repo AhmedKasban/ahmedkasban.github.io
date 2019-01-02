@@ -50,9 +50,6 @@ body {
     color:#F56111;
     border-bottom: solid 1px #F56111;
 }
-.navbar-light .navbar-nav {
-   margin-left: 40%
-}
 .link {
     color: #fcfcfc;
     font-size: 25px
@@ -148,9 +145,10 @@ body {
         color:#fcfcfc;
         border-bottom: solid 1px #F56111;
         background-color: #31373C;
-        text-align: center
+        text-align: center;
+        width: 100%;
     }
-      .navbar-light .navbar-nav .nav-item:last-of-type .nav-link{
+    .navbar-light .navbar-nav .nav-item:last-of-type .nav-link{
         border-bottom: solid 1px transparent;
     }
     .navbar-light .navbar-nav .nav-link {
@@ -161,14 +159,8 @@ body {
 @media  (max-width:786px){
     .header .intro h1{
         font-size: 30px;
-    }
-       .navbar-light .navbar-nav .nav-item:last-of-type .nav-link{
-        border-bottom: solid 1px transparent;
-    }
-    .navbar-light .navbar-nav .nav-link {
-        margin-left: 0
-    }
-}
+
+}}
 
 /*drop*/
 .drop{
